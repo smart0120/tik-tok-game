@@ -98,7 +98,7 @@ function App() {
       setTurn(true);
     }
     // eslint-disable-next-line react-hooks/exhaustive-deps
-  }, [gameOver, grid, isGameOver, newSquares, turn]);
+  }, [gameOver, grid, newSquares, turn]);
 
   return (
     <div className="App">
